@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+// import { Lesson11 }  from './lessons/1/Task1';
+// import { Lesson12 } from './lessons/1/Task2';
+import { Lesson13 } from './lessons/1/Task3';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Ivan</code> .
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      {/* <Lesson11 /> */}
+      {/* <Lesson12 /> */}
+      <Lesson13 />
+    </div >
   );
 }
 
